@@ -1,3 +1,61 @@
+/*Color-lab: #f7b617
+Color gris (footer): #2b2b2b */
+
+
 *{
-	background-color: #000;
+	margin: 0;
+	padding: 0;
 }
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar-default {
+	border-radius: 0;
+	padding: 20px;
+	background-color: #fff;
+	padding: 0 40px 0 40px;
+}
+
+.first-section{
+	background-image: url(../img/taxi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.contenedor{
+	padding-top: 10%;
+}
+
+#cuadrado-info{
+	background-color: #f7b617;
+	color: #fff;
+	height: 35vh;
+}
+
+.btn-uno{
+	padding-top: 5%;
+}
+
+a.btn-header{
+	background-color: #fff;
+	color: #000;
+	padding: 8px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.registro{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	outline: 0;
+}
+
+

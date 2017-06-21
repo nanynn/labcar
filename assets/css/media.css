@@ -1,1 +1,20 @@
-media.css
+@media (min-width: 1px) and (max-width:1024px){
+	
+	.contenedor-mini{
+		padding-top: 40%;
+	}
+	#cuadrado-info-mini{
+		background-color: #f7b617;
+		color: #fff;
+		height: 30vh;
+		padding-left: 50px;
+	}
+
+	a.btn-header-mini{
+		background-color: #fff;
+		color: #000;
+		padding: 8px;
+		border-radius: 5px;
+		text-decoration: none;
+	}
+}
