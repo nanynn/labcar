@@ -26,6 +26,7 @@ body{
 	background-image: url(../img/taxi.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: bottom;
 	height: 100vh;
 }
 
@@ -57,5 +58,27 @@ a.btn-header{
 	background-color: transparent;
 	outline: 0;
 }
+
+/*Section dos*/
+.second-section{
+	background-color: #f7b617;
+}
+
+.contenedor-informacion{
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #fff;
+}
+
+.img-celular{
+	padding-left: 30px;
+    padding-bottom: 60px;
+}
+
+.rayita{
+	border: 1px solid #fff;
+	padding: 10px 40px 10px 0;
+}
+
 
 
