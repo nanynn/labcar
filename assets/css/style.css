@@ -80,5 +80,14 @@ a.btn-header{
 	padding: 10px 40px 10px 0;
 }
 
+.third-section{
+	background-image: url(../img/conduce.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 50vh;
+}
 
+.contenedor-tres{
+	color: #fff;
+}
 
