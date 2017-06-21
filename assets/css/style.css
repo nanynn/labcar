@@ -26,7 +26,7 @@ body{
 	background-image: url(../img/taxi.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position:center bottom;
 	height: 100vh;
 }
 
@@ -89,5 +89,40 @@ a.btn-header{
 
 .contenedor-tres{
 	color: #fff;
+}
+
+.four-section{
+	background-color: #f7b617;
+	color: #fff;
+	height: 50vh;
+}
+
+#map{
+	border: 1px solid #fff;
+	height: 50vh;
+}
+
+.caja-input{
+	display: block;
+	padding: 10px;
+}
+
+.caja-input-dos{
+	display: block;
+	padding: 10px;
+}
+
+.info{
+	background-color: transparent;
+	border:2px solid #fff;
+	width: 50%;
+	padding: 10px;
+	outline: 0;
+	border-radius: 4px;
+}
+
+#ruta{
+	background-color: #fff;
+
 }
 

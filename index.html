@@ -14,7 +14,7 @@
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		      <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 		        <span class="sr-only">Toggle navigation</span>
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
@@ -31,6 +31,7 @@
 		    </div>
 		  </div>
 		</nav>
+
 		<div class="container-fluid">
 			<div class="row">
 				<div class="contenedor">
@@ -67,7 +68,6 @@
 						<div class="col-lg-4 col-md-4 hidden-xs hidden-sm">
 							<img src="assets/img/celular.png" alt="" class="img-celular">
 						</div>
-						
 						<div class="col-lg-4 col-md-4 hidden-xs hidden-sm">
 							<h2>Descarga la nueva app</h2>
 							<p>La versión actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
@@ -103,11 +103,31 @@
 			</div>
 		</div>
 	</section>
-	<section class="four-section"></section>
+	<section class="four-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-mg-6">
+					<h2>Tarifas</h2>
+					<p>Consulta las tarifas LabCar aquí
+					</p>
+					<div class="caja-input">
+						<span class="glyphicon glyphicon-record" aria-hidden="true"></span><input type="text" placeholder="Ingrese punto de partida" id="origen" class="info">
+					</div>
+					<div class="caja-input-dos">
+						<i class="fa fa-paper-plane" aria-hidden="true"></i><input type="text" placeholder="Ingrese un destino" id="destino" class="info">
+					</div>	
+					<div>
+						<a href="#" id="ruta" class="text-center">!Trazar ruta!</a>
+					</div>
+				</div>
+				<div class="col-lg-6 col-mg-6 hidden-xs hidden-sm" id="map"></div>
+			</div>
+		</div>
+	</section>
 	<footer></footer>
 
-
-
+	<script src="https://use.fontawesome.com/b98428e78e.js"></script>
+	 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFozJ7NXhv136zwPHEtdl8tpc8_T3CTLc&callback=initMap&libraries=places" type="text/javascript"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="assets/js/main.js"></script>
