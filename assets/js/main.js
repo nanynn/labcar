@@ -13,7 +13,7 @@ function initMap(){
 		}
 	}	
 
-	addEventListener('loader', buscar);
+	window.addEventListener('load', buscar);
 
 	var latitud, longitud;
 
