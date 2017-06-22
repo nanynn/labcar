@@ -9,6 +9,7 @@ Color gris (footer): #2b2b2b */
 
 body{
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
@@ -20,6 +21,12 @@ body{
 	padding: 20px;
 	background-color: #fff;
 	padding: 0 40px 0 40px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #f7b617;
+	border-radius: 3px;
+	color: #fff;
 }
 
 .first-section{
@@ -40,13 +47,22 @@ body{
 	height: 35vh;
 }
 
-.btn-uno{
-	padding-top: 5%;
+.btn{
+	padding-top: 8%;
 }
 
-a.btn-header{
+a.btn{
 	background-color: #fff;
 	color: #000;
+	padding: 6px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+a.btn:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #000;
+	font-weight: 700;
 	padding: 8px;
 	border-radius: 5px;
 	text-decoration: none;
@@ -85,15 +101,16 @@ a.btn-header{
 
 .contenedor-tres{
 	color: #fff;
+	font-weight: 300;
 }
 
 .fondo-tres{
 	background-color: rgba(0, 0, 255, 0.2);
 	height: 35vh;
-	padding-right: 15%;
+	padding-right: 5%;
 }
 
-.btn-tres{
+.btn-tres a{
 	background-color: #f7b617;
 	color: #fff;
 	padding: 8px;
@@ -174,3 +191,38 @@ a.btn-ruta{
 	text-decoration: none;
 }
 
+footer{
+	background-color: #2b2b2b;
+	height: 55vh;
+	padding-top: 20px;
+	color: #fff;
+}
+.contenido-footer{
+ 	padding-top: 1%;
+ 	padding-bottom:1%;
+}
+
+.raya{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1%;
+}
+.iconos{
+	padding-top: 20%;
+}
+
+.fa:hover{
+	color: #f7b617;
+}
+
+.img-grande{
+	padding-top: 10%;
+}
+
+.img-grande img{
+	padding-bottom: 3%;
+}
+
+.raya-down{
+	border-top: 1px solid #fff;
+	padding-top: 1%;
+}
