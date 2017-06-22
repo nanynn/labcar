@@ -81,8 +81,10 @@ a.btn:hover{
 	height: 70vh;
 }
 
-.contenedor-informacion{
-	padding-top: 3%;
+.cuadrado{
+	height: 60vh;
+	border: 1px solid #fff;
+	margin-top: 3%;
 	padding-bottom: 3%;
 	color: #fff;
 }
@@ -116,6 +118,10 @@ a.btn:hover{
 	padding: 8px;
 	border-radius: 5px;
 	text-decoration: none;
+}
+.btn-tres a:hover{
+	background-color: #fff;
+	color:#000;
 }
 
 .four-section{
