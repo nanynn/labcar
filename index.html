@@ -88,10 +88,10 @@
 		</div>
 	</section>
 	<section class="third-section">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="contenedor-tres">
-					<div class="col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8 col-xs-10 col-xs-offset-2">
+					<div class="col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8 col-xs-10 col-xs-offset-2 fondo-tres">
 						<h2>Conduce cuando quieras</h2>
 						<p>LabCar es una opción flexible para alcanzar tus metas financieras.
 						</p>
@@ -107,20 +107,23 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-mg-6">
-					<h2>Tarifas</h2>
-					<p>Consulta las tarifas LabCar aquí
-					</p>
-					<div class="caja-input">
-						<span class="glyphicon glyphicon-record" aria-hidden="true"></span><input type="text" placeholder="Ingrese punto de partida" id="origen" class="info">
-					</div>
-					<div class="caja-input-dos">
-						<i class="fa fa-paper-plane" aria-hidden="true"></i><input type="text" placeholder="Ingrese un destino" id="destino" class="info">
-					</div>	
-					<div>
-						<a href="#" id="ruta" class="text-center">!Trazar ruta!</a>
+					<div class="contenedor-cuatro">
+						<h2>Tarifas</h2>
+						<p>Consulta las tarifas LabCar aquí</p>
+						<div class="caja-input">
+							<span class="glyphicon glyphicon-record" aria-hidden="true"></span> <input type="text" placeholder="Ingrese punto de partida" id="origen" class="info">
+						</div>
+						<div class="caja-input-dos">
+						<span class="glyphicon glyphicon-send" aria-hidden="true"></span> <input type="text" placeholder="Ingrese un destino" id="destino" class="info">
+						</div>	
+						<div class="caja-btn-ruta">
+							<a href="#" id="ruta" class="btn-ruta">!Trazar ruta!</a>
+						</div>
 					</div>
 				</div>
-				<div class="col-lg-6 col-mg-6 hidden-xs hidden-sm" id="map"></div>
+				<div class="contenedor-cuatro-mapa">
+					<div class="col-lg-6 col-mg-6 hidden-xs hidden-sm" id="map"></div>
+				</div>
 			</div>
 		</div>
 	</section>

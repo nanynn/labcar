@@ -26,7 +26,7 @@ body{
 	background-image: url(../img/taxi.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position:center bottom;
+	background-position: bottom;
 	height: 100vh;
 }
 
@@ -62,17 +62,13 @@ a.btn-header{
 /*Section dos*/
 .second-section{
 	background-color: #f7b617;
+	height: 70vh;
 }
 
 .contenedor-informacion{
-	padding-top: 2%;
-	padding-bottom: 2%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	color: #fff;
-}
-
-.img-celular{
-	padding-left: 30px;
-    padding-bottom: 60px;
 }
 
 .rayita{
@@ -91,15 +87,40 @@ a.btn-header{
 	color: #fff;
 }
 
+.fondo-tres{
+	background-color: rgba(0, 0, 255, 0.2);
+	height: 35vh;
+	padding-right: 15%;
+}
+
+.btn-tres{
+	background-color: #f7b617;
+	color: #fff;
+	padding: 8px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
 .four-section{
 	background-color: #f7b617;
 	color: #fff;
-	height: 50vh;
+	height: 60vh;
+}
+
+.contenedor-cuatro{
+	padding-top: 3%;
+}
+
+.contenedor-cuatro-mapa{
+	padding-top: 3%;
+	padding-bottom: 2%;
 }
 
 #map{
 	border: 1px solid #fff;
-	height: 50vh;
+	height: 45vh;
+	width: 45%;
+	margin: 10px;
 }
 
 .caja-input{
@@ -116,13 +137,40 @@ a.btn-header{
 	background-color: transparent;
 	border:2px solid #fff;
 	width: 50%;
-	padding: 10px;
+	padding: 15px;
 	outline: 0;
 	border-radius: 4px;
 }
 
-#ruta{
-	background-color: #fff;
+.info[placeholder]{      
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
 
+.info::placeholder {
+  color: #FFF;
+}
+
+.glyphicon-send{
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+.glyphicon-record{
+	font-size: 20px;
+	padding-left: 5px;
+}
+
+.caja-btn-ruta{
+	padding-top: 3%;
+	padding-left: 20%;
+}
+
+a.btn-ruta{
+	background-color: #fff;
+	color: #000;
+	padding: 8px;
+	border-radius: 5px;
+	text-decoration: none;
 }
 
